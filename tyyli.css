@@ -1,0 +1,140 @@
+body {
+  background-color: #ECECEC;
+  color: black;	
+  font-family: Verdana, Arial, "Trebuchet MS", sans-serif;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  line-height: 150%;
+}
+
+h1 { 
+  margin-right: 1em;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+h2 { 
+  margin-right: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+p { 
+  margin-left: 0.3em;
+  margin-right: 0.3em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.navbar {
+  border-style: solid;
+  border-width: thin;
+  border-color: black;
+  background-color: #FDDAF2;
+  color: white;
+  width: 20%;
+  float: right;
+  margin-left: 0.5em;
+}
+
+.navbartop {
+  background-color: #FDDAF2;
+  color: white;
+  overflow: hidden;
+}
+
+.navbartop a {
+  float: left;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 17px;
+}
+
+.navbartop ul li {
+  display: inline;
+  border-left: 1px solid black;
+  margin-left: 0.5em;
+  padding-left: 0.5em;
+}
+
+.navbartop ul li img {
+  vertical-align: middle;
+  border: 0;
+}
+
+.navbartop ul {
+  padding-bottom: 0.5em;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.navbartop ul li:first-child {
+  border-left: 0;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.navbar ul {
+  margin-left: 1em;
+  padding-left: 0.5em;
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  background-color: #ECEBEC;
+  color: white;
+}
+
+.navbartop a:link, .navbar a:link {
+  text-decoration: none;
+  color: white;
+}
+
+.navbartop a:visited, .navbar a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+address {
+  float: right;
+}
+
+table {
+  border: 1px solid black;
+  border-spacing: 4px;
+}
+
+td, th {
+  border: 1px solid black;
+  padding: 0.2em 0.3em;
+}
+
+th {
+  font-weight: bolder;
+  font-size: 1em;
+  text-align: center;
+  background-color: #FFC752
+}
+
+td {
+  text-align: left;
+}
+
+caption {
+  font-weight: bolder;
+  font-size: 1.1em;
+}
